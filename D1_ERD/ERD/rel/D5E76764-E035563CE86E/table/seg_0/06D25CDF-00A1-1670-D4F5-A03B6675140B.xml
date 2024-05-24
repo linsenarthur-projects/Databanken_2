@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06D25CDF-00A1-1670-D4F5-A03B6675140B" name="Memberchipcard">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="memberschipid" id="AC7787F4-F16F-F92A-469E-D671561D7001">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:33:19 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="startdate" id="B78E3342-F75C-6A63-A2C7-653F5CD083DB">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:34:07 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enddate" id="73DDE567-8F87-8456-039C-99A0BD861C24">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:34:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fitness_fitnessid" id="2B577401-39E6-43B3-0B98-4E5612EBA243">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39492078-0909-DC35-9D6E-82CBB7AC309B" referredColumn="A17B41DB-B014-488E-D117-EAE1DB42157E"/>
+</associations>
+</Column>
+<Column name="Member_memberid" id="52CBFA1F-245E-59DF-15BB-0D7D1403530A">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33E0992A-EF78-BA81-0426-C73F3EB5A151" referredColumn="19D80FF7-F8F1-F3BC-1FB4-FB8B4B69C449"/>
+</associations>
+</Column>
+<Column name="Abonnement_abonnementid" id="397D9604-2D3E-0641-7A7A-00265E594993">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:38:54 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E13E9895-A314-31B2-1DD6-90C3D7C206FD" referredColumn="1A487467-B409-33B7-BD83-3CE559950DE7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0992E98A-E0F5-9300-5369-CD69036329D9" name="Memberchipcard_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC7787F4-F16F-F92A-469E-D671561D7001"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E711EEA-222D-A325-2FC1-3AED0E40FFC6" name="Memberchipcard_Fitness_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>54AC2D04-C789-F64A-7087-7BCCC5B0C46F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B577401-39E6-43B3-0B98-4E5612EBA243"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D394525D-234B-31A5-79C8-E64B577B3E27" name="Memberchipcard_Member_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>54AC2D04-C789-F64A-7087-7BCCC5B0C46F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52CBFA1F-245E-59DF-15BB-0D7D1403530A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E744FAEF-6720-E272-D895-C0DE51B73593" name="Memberchipcard_Abonnement_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:38:54 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="397D9604-2D3E-0641-7A7A-00265E594993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="startdate_enddate" directorySegmentName="seg_0" id="CF196F9B-DFD5-6067-EEE1-31525D879BAF">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:46:30 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<rule><![CDATA[CHECK (startdate < enddate)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

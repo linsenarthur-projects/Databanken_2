@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A31CDCD-2B82-7DA0-E025-1D6245AD328D" name="TimeOfPractice">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<ordsAlias>execution</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="timeofpracticeid" id="B5DEFB1E-5D0E-571B-6CF1-9568736422A1">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:34:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="practicedate" id="82E9E581-BF17-5B1A-28CE-2A3406DA3F14">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:35:34 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reps" id="F70C4F04-60EC-BAD6-86FC-DFBA3681D1D3">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:35:08 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sets" id="2AEA4E50-BF6F-0AD1-EC6E-CC3A586F2D0C">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:35:19 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addedweight" id="ED70BB3A-051F-90C3-3F27-919075480CD8">
+<createdBy>arthu</createdBy>
+<createdTime>2023-03-09 13:26:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Member_memberid" id="5D31EDB8-75BC-63CA-A26F-BFD03FEB3346">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0102630-C773-5EB8-DD07-D24D86248E8D" referredColumn="19D80FF7-F8F1-F3BC-1FB4-FB8B4B69C449"/>
+</associations>
+</Column>
+<Column name="Exercise_exerciseid" id="EE35DDE3-A713-DECD-AE43-F1548F5EC750">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BA7CC00-4E9A-59F2-5FA3-3ED07DDA0665" referredColumn="BBC93712-A627-1138-FB74-0102D3DC01D9"/>
+</associations>
+</Column>
+<Column name="Fitness_fitnessid" id="6A5CC9CD-B9B1-16D4-EC70-4F110DD8CB07">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 07:59:37 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F51EF81F-E454-4441-8E8E-6DDC9AB4DE9F" referredColumn="A17B41DB-B014-488E-D117-EAE1DB42157E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5682C75-5A09-AC5F-AC61-34C538EE3625" name="Execution_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5DEFB1E-5D0E-571B-6CF1-9568736422A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F64CC336-87E5-55B5-0998-890FB3E14AB6" name="Execution_Member_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>4EFA5298-1A7E-46DC-18EC-62439F33B435</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D31EDB8-75BC-63CA-A26F-BFD03FEB3346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9D321E2-466D-07A5-D505-1DA98DE17427" name="Execution_Exercise_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>4EFA5298-1A7E-46DC-18EC-62439F33B435</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE35DDE3-A713-DECD-AE43-F1548F5EC750"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="506EE6BD-86E4-47F2-D13C-2495653FF58A" name="TimeOfPractice_Fitness_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 07:59:37 UTC</createdTime>
+<generatorID>3058CA5D-0891-02B1-2E74-897912A691DC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A5CC9CD-B9B1-16D4-EC70-4F110DD8CB07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

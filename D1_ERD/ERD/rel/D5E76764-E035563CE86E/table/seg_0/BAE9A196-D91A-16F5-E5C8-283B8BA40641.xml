@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAE9A196-D91A-16F5-E5C8-283B8BA40641" name="Machine">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>63157356-8A77-F169-FAD6-856DE0C9AA88</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="machineid" id="32A9EABA-567E-A1F9-E2DA-58A135FE98A7">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>66638F43-E7C0-145A-34AA-823AF9A8E485</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E6E078E4-159B-DD8F-D772-3AB9ACB17B4C">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>BF1E796A-010E-F58E-F04A-0A27E9F9EA1D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="C1E9406A-BF22-2C64-0F3A-15FD29C1734E">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>7CEE69A9-3685-E137-5B71-1A4F27696CE7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="44780E18-B837-8E76-20FF-773B56F25722">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>944E3CC2-1222-A6FA-B4CB-2F5F6583D84E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maxweight" id="80A56591-46C0-9F73-6B24-7D20455D3CC1">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>9305832E-FF9B-2136-EB14-0C9A041C5A6A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brand" id="A0986B83-0D6C-1953-1EB3-B6CDF9527612">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>E28E95C4-51C4-552D-7547-04DCE7C1B0B0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fitness_fitnessid" id="71E5DECB-3412-CBCB-4984-8756C3B6D848">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:47:55 UTC</createdTime>
+<generatorID>82000537-E9C0-75FD-5CD8-A50D6E7A404E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E824BB58-A6D7-F76A-DD11-1DA60347025E" referredColumn="A17B41DB-B014-488E-D117-EAE1DB42157E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08E79B7C-6CAF-EC4F-CD4F-3EB56CDB7B8A" name="Machine_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>730E93A0-5ABC-13D8-4B9D-97DA0AF34AF7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32A9EABA-567E-A1F9-E2DA-58A135FE98A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD6BD3DC-0F88-6D2D-1504-B7C651477D36" name="Machine_Fitness_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:47:55 UTC</createdTime>
+<generatorID>0CA9298B-DF9A-2FC5-A8B2-7F64C8D42B88</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E5DECB-3412-CBCB-4984-8756C3B6D848"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

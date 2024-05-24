@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5A17AB3-8137-9F45-CA1D-181143A4C674" name="Exercise">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:29:51 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="exerciseid" id="E0887607-FEA7-A824-B9DD-4D56CC1C70EC">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:33:32 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="7ABAAB20-4A30-C634-C3DE-D6521D39F383">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:33:50 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="addedweight" id="68CD6626-9DBE-3EAB-407A-4A5D2EEFDD93">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:36:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instruction" id="DD12C207-ADB1-8899-F1F2-BDCEFA9C237D">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-16 13:38:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="machineid" id="6798736E-5EC1-90C0-546A-32AE67E5AA31">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 17:22:05 UTC</createdTime>
+<generatorID>A7AFE045-D721-1170-94E8-03A04788CCEB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<referedAttribute>66638F43-E7C0-145A-34AA-823AF9A8E485</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="difficultyid" id="04C30B87-EBF1-5EF2-B013-51F22AAA6D69">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:19:19 UTC</createdTime>
+<generatorID>E223C051-C82A-A891-CFEB-06C32902D15D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CBC8E922-D222-9313-2D11-CBA071728E4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="muclsegroupid" id="2577A497-5C9A-FF08-7246-A3C5D05460F5">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:19:34 UTC</createdTime>
+<generatorID>C2E0AE82-CD85-39A2-C3C7-4D4AB03139E0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<referedAttribute>3804FC72-330D-D54A-26D0-8BEA2FA33A44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3546806F-3013-5BCB-1ED6-8E97717A1E01" name="Exercise PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:33:47 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0887607-FEA7-A824-B9DD-4D56CC1C70EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

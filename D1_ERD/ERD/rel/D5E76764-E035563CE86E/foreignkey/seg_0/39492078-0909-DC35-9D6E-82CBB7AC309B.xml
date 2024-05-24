@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="39492078-0909-DC35-9D6E-82CBB7AC309B" containerWithKeyObject="06D25CDF-00A1-1670-D4F5-A03B6675140B" localFKIndex="0E711EEA-222D-A325-2FC1-3AED0E40FFC6" name="Memberchipcard_Fitness_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>54AC2D04-C789-F64A-7087-7BCCC5B0C46F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Fitness</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD2BFA6A-BA84-A78C-4875-AC0DE9A19470</referredTableID>
+<keyObject>3F3C62F0-9383-CC31-4E13-B647CFC07137</keyObject>
+<referredKeyID>3F3C62F0-9383-CC31-4E13-B647CFC07137</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fitnessid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

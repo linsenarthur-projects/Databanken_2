@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F665C5F2-DB60-3F88-01EA-D77E446757D5" name="Difficulty">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 17:19:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="EE07B78D-C93C-E752-4180-20A93D78BF1F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="difficultyid" id="CBC8E922-D222-9313-2D11-CBA071728E4E">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 17:19:31 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="EE07B78D-C93C-E752-4180-20A93D78BF1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="2CE33045-1BD3-C488-8C3A-C8920AB75853">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 17:19:55 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="EE07B78D-C93C-E752-4180-20A93D78BF1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F47C2643-37BF-FC27-B72B-126B623C345B" name="Difficulty PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 17:19:53 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="EE07B78D-C93C-E752-4180-20A93D78BF1F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBC8E922-D222-9313-2D11-CBA071728E4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63157356-8A77-F169-FAD6-856DE0C9AA88" name="Machine">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:37:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="machineid" id="66638F43-E7C0-145A-34AA-823AF9A8E485">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:37:09 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="BF1E796A-010E-F58E-F04A-0A27E9F9EA1D">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:37:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="7CEE69A9-3685-E137-5B71-1A4F27696CE7">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:37:47 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="944E3CC2-1222-A6FA-B4CB-2F5F6583D84E">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:38:26 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maxweight" id="9305832E-FF9B-2136-EB14-0C9A041C5A6A">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:38:47 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brand" id="E28E95C4-51C4-552D-7547-04DCE7C1B0B0">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:39:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fitnessid" id="F8E43C7E-360B-8A0A-BB8C-36C4D760296D">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 17:21:35 UTC</createdTime>
+<generatorID>25423FE5-E7D3-76E7-D6C0-4FF6649B0E87</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="true"/>
+</engineerTo>
+<referedAttribute>34A1977F-1D69-D957-C2E3-4E9CE1E60CB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="730E93A0-5ABC-13D8-4B9D-97DA0AF34AF7" name="Machine PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:37:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D5E76764-6A55-A361-474D-E035563CE86E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66638F43-E7C0-145A-34AA-823AF9A8E485</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

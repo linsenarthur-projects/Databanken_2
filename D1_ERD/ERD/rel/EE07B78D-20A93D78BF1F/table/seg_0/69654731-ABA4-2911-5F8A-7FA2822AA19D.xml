@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69654731-ABA4-2911-5F8A-7FA2822AA19D" name="Fitness">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>9DE764F4-6D16-D19C-92FA-79321CD8C6C2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fitnessid" id="0D2366AD-B2BD-B6F1-1288-90F386B8D601">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>34A1977F-1D69-D957-C2E3-4E9CE1E60CB2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8F01587E-213D-F6EE-3B57-2223D409083F">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>4E3979FC-A73C-261B-64BE-82C392BBE51F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="743AC2CC-FC13-B994-5006-8C22B042A981">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>3BE5DA42-4055-5B3F-4540-5CC883C211C9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="streetnumber" id="5D0C47BB-7783-6566-D226-4A5304774220">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>5F3146AF-EACB-606F-C935-595C8A4BBC54</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postalcode" id="C837EE1D-68A0-9E04-AD3B-C49EE73DEFF1">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>19F2503E-5C4C-98D8-D748-2E4B9EA3A0E3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surface" id="6595F180-B13C-5AE7-3935-348576BC291D">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>C9A30941-FBBB-081F-5786-DE0422C9ED22</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CC9684C-8830-EA02-B2DD-4446ABE91EE6" name="Fitness_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>3058CA5D-0891-02B1-2E74-897912A691DC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D2366AD-B2BD-B6F1-1288-90F386B8D601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD2BFA6A-BA84-A78C-4875-AC0DE9A19470" name="Fitness">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>9DE764F4-6D16-D19C-92FA-79321CD8C6C2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fitnessid" id="A17B41DB-B014-488E-D117-EAE1DB42157E">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>34A1977F-1D69-D957-C2E3-4E9CE1E60CB2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="117B6367-D102-E0AE-95EB-1FA164389994">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>4E3979FC-A73C-261B-64BE-82C392BBE51F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surface" id="679AF356-E52E-0ECF-4B7B-7E73468C15DB">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>C9A30941-FBBB-081F-5786-DE0422C9ED22</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address_addressid" id="E8048CF6-FE9A-7170-AF38-068C6A3B2EC8">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 08:04:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DF50C48-9893-DCAB-BD17-EA169BACF148" referredColumn="E3D3D729-76E0-33F8-D548-C1FE97AB8E08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F3C62F0-9383-CC31-4E13-B647CFC07137" name="Fitness_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>3058CA5D-0891-02B1-2E74-897912A691DC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A17B41DB-B014-488E-D117-EAE1DB42157E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12EF564A-0CD5-6630-5E37-DFD2591D1A6C" name="Fitness_Address_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 08:04:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8048CF6-FE9A-7170-AF38-068C6A3B2EC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Postalcode validation" directorySegmentName="seg_0" id="64EACB8C-8AB5-E63D-AF59-E116BC47352C">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-26 15:43:27 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<rule><![CDATA[CHECK (postalcode >= 1000 AND postalcode <= 9999)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

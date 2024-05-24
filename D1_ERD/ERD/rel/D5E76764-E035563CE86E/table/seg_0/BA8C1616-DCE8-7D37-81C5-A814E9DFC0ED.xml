@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA8C1616-DCE8-7D37-81C5-A814E9DFC0ED" name="Address">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 08:00:53 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="addressid" id="E3D3D729-76E0-33F8-D548-C1FE97AB8E08">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 08:01:21 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="C98FA197-1CCD-5736-48BB-055B51777B45">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 08:02:04 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="streetnumber" id="0AB139C4-D995-C05D-73CF-C979772053B7">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 08:02:32 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postalcode" id="EDABE4BC-1930-19A6-C2C9-3DA934860E52">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 08:02:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CAC169E-553D-6ECC-FD07-AC8350837F9D" name="Address_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 08:01:21 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3D3D729-76E0-33F8-D548-C1FE97AB8E08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="postalcode" directorySegmentName="seg_0" id="098AF18C-5913-876C-428C-430FC869E858">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-27 08:04:11 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<rule><![CDATA[CHECK (postalcode >= 1000 AND postalcode <= 9999)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

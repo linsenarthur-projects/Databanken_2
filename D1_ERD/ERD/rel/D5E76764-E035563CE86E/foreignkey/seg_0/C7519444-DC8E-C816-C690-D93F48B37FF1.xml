@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C7519444-DC8E-C816-C690-D93F48B37FF1" containerWithKeyObject="07C05B04-D1B9-B5E8-8D8A-2D935BCDF503" localFKIndex="1866E28D-76FB-4EAB-9F58-978071E84672" name="Exercise_Musclegroup_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>C2E0AE82-CD85-39A2-C3C7-4D4AB03139E0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Musclegroup</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E73CE6ED-4AD5-8CD6-CC0B-C2094CA1E714</referredTableID>
+<keyObject>0BAD18EC-AF99-7442-08C9-08A888EBB279</keyObject>
+<referredKeyID>0BAD18EC-AF99-7442-08C9-08A888EBB279</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>muclsegroupid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

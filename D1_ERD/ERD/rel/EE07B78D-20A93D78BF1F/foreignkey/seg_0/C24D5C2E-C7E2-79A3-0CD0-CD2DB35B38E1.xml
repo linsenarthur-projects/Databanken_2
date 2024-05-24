@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C24D5C2E-C7E2-79A3-0CD0-CD2DB35B38E1" containerWithKeyObject="4A5A7659-D45C-521A-7A8B-7A2BA80DB9AD" localFKIndex="5425B43C-5206-B967-0E6C-1DC314B23107" name="Memberschipcard_Abonnement_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:56:35 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Abonnement</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBF153BF-6EDD-0FEE-67BA-EB8F0AF2F2FC</referredTableID>
+<keyObject>341A1937-2801-3D5D-ADCF-611788AF2A03</keyObject>
+<referredKeyID>341A1937-2801-3D5D-ADCF-611788AF2A03</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>abonnementid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

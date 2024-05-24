@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="730CEC07-A633-39FF-12AB-11C2C78155B1" name="TimeOfPractice">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<ordsAlias>relation_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="timeofpracticeid" id="67898DFE-9E54-CB5E-9C7C-084BB4E651CF">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:34:16 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reps" id="636374D0-8D56-D2E0-233F-D121E3121785">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:43:04 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sets" id="29FD5425-9F32-D692-B665-AAEAE62EECBF">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:43:14 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="practicedate" id="36A0EA68-DA7A-0F19-C72E-99CE4A70232F">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:44:11 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Member_memberid" id="BD60D181-C2E4-1701-E9D3-3815CEE81D82">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18C89437-4292-DE5B-1E68-A6591FB51B23" referredColumn="B835B925-B05A-A88E-AE10-FBCAB743112D"/>
+</associations>
+</Column>
+<Column name="Exercise_exerciseid" id="C6D7D2CA-E4A6-3A26-D1BB-B823FC54CFB6">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF3087EA-1722-E96A-0CE4-0A0EC6D32619" referredColumn="638565A4-1096-8E26-675C-2AF9B576F173"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C005E5A-D239-9F8B-6E66-40A959322BD3" name="timeofpracticeid">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67898DFE-9E54-CB5E-9C7C-084BB4E651CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38D098D8-28D8-2439-E84C-05E769121907" name="Member_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>65149B18-817D-BE02-3EAD-37D59CFE9E17</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD60D181-C2E4-1701-E9D3-3815CEE81D82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EE8FE8E-7631-11CA-1D52-BFEDBA360708" name="Exercise_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-22 18:23:00 UTC</createdTime>
+<generatorID>65149B18-817D-BE02-3EAD-37D59CFE9E17</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6D7D2CA-E4A6-3A26-D1BB-B823FC54CFB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

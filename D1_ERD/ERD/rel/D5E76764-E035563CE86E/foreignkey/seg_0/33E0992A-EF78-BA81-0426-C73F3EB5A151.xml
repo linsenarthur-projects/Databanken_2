@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33E0992A-EF78-BA81-0426-C73F3EB5A151" containerWithKeyObject="06D25CDF-00A1-1670-D4F5-A03B6675140B" localFKIndex="D394525D-234B-31A5-79C8-E64B577B3E27" name="Memberchipcard_Member_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>54AC2D04-C789-F64A-7087-7BCCC5B0C46F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Member</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E09A08AC-59C6-71E4-3BCC-4C93138C8328</referredTableID>
+<keyObject>EDA9AADC-CBE5-B290-0F3F-C3AAAC54F47C</keyObject>
+<referredKeyID>EDA9AADC-CBE5-B290-0F3F-C3AAAC54F47C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>memberid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

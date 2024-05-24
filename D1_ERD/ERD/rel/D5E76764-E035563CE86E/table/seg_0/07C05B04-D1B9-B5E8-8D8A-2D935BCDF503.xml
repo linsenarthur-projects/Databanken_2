@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07C05B04-D1B9-B5E8-8D8A-2D935BCDF503" name="Exercise">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>F5A17AB3-8137-9F45-CA1D-181143A4C674</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="exerciseid" id="BBC93712-A627-1138-FB74-0102D3DC01D9">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>E0887607-FEA7-A824-B9DD-4D56CC1C70EC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B109B352-A614-6C44-0484-D7AFEFC0F306">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>7ABAAB20-4A30-C634-C3DE-D6521D39F383</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instruction" id="68A47308-3084-00D2-2EE2-BE92BEBC3A7C">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>DD12C207-ADB1-8899-F1F2-BDCEFA9C237D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Machine_machineid" id="E245AA76-4D8C-3908-49D1-6C88859D5A31">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:48:18 UTC</createdTime>
+<generatorID>1EA1778B-89B2-D5AF-82DE-1FAD3B1E5A7E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F977673-9627-BA8F-EB0F-09BD359314C0" referredColumn="32A9EABA-567E-A1F9-E2DA-58A135FE98A7"/>
+</associations>
+</Column>
+<Column name="Difficulty_difficultyid" id="BC02D7FC-ABBE-4D1D-1DCD-B6BC3122D18A">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>04C30B87-EBF1-5EF2-B013-51F22AAA6D69</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66FA6C73-1C85-5752-C63B-B775FF308BA3" referredColumn="89A4F542-42F3-FA98-6DD0-A8C386C94A00"/>
+</associations>
+</Column>
+<Column name="Musclegroup_muclsegroupid" id="9315B272-4461-A0AC-6C3F-D83F9EE198F3">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>2577A497-5C9A-FF08-7246-A3C5D05460F5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7519444-DC8E-C816-C690-D93F48B37FF1" referredColumn="83F8CF61-A215-07E4-9930-B6869AB9AF66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA38F637-AB05-F841-FA71-2A601D181AE1" name="Exercise_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:45:23 UTC</createdTime>
+<generatorID>3546806F-3013-5BCB-1ED6-8E97717A1E01</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBC93712-A627-1138-FB74-0102D3DC01D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="843BB833-F2FD-B6D2-BFEB-D384525303DC" name="Exercise_Machine_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-15 10:48:18 UTC</createdTime>
+<generatorID>57D4753F-FAE3-FAAB-294F-30A29B0A64A9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E245AA76-4D8C-3908-49D1-6C88859D5A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33DF2A78-AC75-8C9E-3484-D652A06A7F4C" name="Exercise_Difficulty_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>E223C051-C82A-A891-CFEB-06C32902D15D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC02D7FC-ABBE-4D1D-1DCD-B6BC3122D18A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1866E28D-76FB-4EAB-9F58-978071E84672" name="Exercise_Musclegroup_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>C2E0AE82-CD85-39A2-C3C7-4D4AB03139E0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9315B272-4461-A0AC-6C3F-D83F9EE198F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

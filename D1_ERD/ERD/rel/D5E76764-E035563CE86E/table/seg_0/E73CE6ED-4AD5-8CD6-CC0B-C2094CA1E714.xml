@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E73CE6ED-4AD5-8CD6-CC0B-C2094CA1E714" name="Musclegroup">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>61C47182-D80B-F7AF-E34C-3D0C72FE1B71</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="muclsegroupid" id="83F8CF61-A215-07E4-9930-B6869AB9AF66">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>3804FC72-330D-D54A-26D0-8BEA2FA33A44</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E9E92945-087E-1568-C0CF-BC2A64CC6B91">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>0FAB469F-20E0-7E27-CFA4-8A376FCB298C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BAD18EC-AF99-7442-08C9-08A888EBB279" name="Musclegroup_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2023-02-23 19:40:18 UTC</createdTime>
+<generatorID>01F45E1C-11EC-7611-B7FF-1DD5DAD504F7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F8CF61-A215-07E4-9930-B6869AB9AF66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
